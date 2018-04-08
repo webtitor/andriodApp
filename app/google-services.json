@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1091289016115",
+    "firebase_url": "https://bowler-scruitinizer-1.firebaseio.com",
+    "project_id": "bowler-scruitinizer-1",
+    "storage_bucket": "bowler-scruitinizer-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091289016115:android:0397de510e9c5067",
+        "android_client_info": {
+          "package_name": "com.bowler_scruitinizer_1.bowler_scruitinizer_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091289016115-iv3ecbsdap9qouoodhfpire2inknnp6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4_RTZjFMQ19zsaRvTTB1uulYuHx8SMF4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bowler_scruitinizer_1.bowler_scruitinizer_1.Sign_in"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/grass3op"
+    android:layout_gravity="center"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_gravity= "center_vertical"
+        >
+
+        <EditText
+            android:id="@+id/emailU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/timmana"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress"
+            android:shadowRadius="2"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/passwordU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/timmana"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:shadowRadius="2"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="#e62e00"
+            android:text="Log in"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:shadowRadius="2"
+            />
+
+        <TextView
+            android:id="@+id/register"
+            android:textAlignment="center"
+            android:text="Register now"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:shadowRadius="2"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
